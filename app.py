@@ -39,7 +39,7 @@ if uploaded_file is not None:
                 
                 # Gemini modelini çağırıyoruz
                 response = client.models.generate_content(
-                    model='gemini-2.5-flash',  # Hızlı ve verimli model sürümü
+                    model='gemini-3.8-flash',  # Hızlı ve verimli model sürümü
                     contents=[image, prompt]
                 )
                 
